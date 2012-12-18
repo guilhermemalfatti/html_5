@@ -84,7 +84,7 @@ var update = function (modifier) {
 
         ) {
         //++monstersCaught;
-$('#dialogWin').text('You win...');
+        $('#dialogWin').text('You win...');
         reset();
     }
 };
@@ -92,7 +92,7 @@ $('#dialogWin').text('You win...');
 // Desenhando na tela
 var render = function () {
     if (bgReady) {
-    ctx.drawImage(bgImage, 0, 0);
+        ctx.drawImage(bgImage, 0, 0);
     }
 
     if (heroReady) {
